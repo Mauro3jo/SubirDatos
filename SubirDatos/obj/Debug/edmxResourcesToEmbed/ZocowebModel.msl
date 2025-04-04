@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="zocoModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="PagosPendientes">
+      <EntityTypeMapping TypeName="zocoModel.PagosPendientes">
+        <MappingFragment StoreEntitySet="PagosPendientes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FechaOperacion" ColumnName="FechaOperacion" />
+          <ScalarProperty Name="MarcaTarjeta" ColumnName="MarcaTarjeta" />
+          <ScalarProperty Name="Importe" ColumnName="Importe" />
+          <ScalarProperty Name="NroTerminal" ColumnName="NroTerminal" />
+          <ScalarProperty Name="Resultado" ColumnName="Resultado" />
+          <ScalarProperty Name="Cuota" ColumnName="Cuota" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsuariosSubirBase">
+      <EntityTypeMapping TypeName="zocoModel.UsuariosSubirBase">
+        <MappingFragment StoreEntitySet="UsuariosSubirBase">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="base_dashboard">
+      <EntityTypeMapping TypeName="zocoModel.base_dashboard">
+        <MappingFragment StoreEntitySet="base_dashboard">
+          <ScalarProperty Name="Fecha_Operacion" ColumnName="Fecha Operacion" />
+          <ScalarProperty Name="Fecha_de_Presentacion" ColumnName="Fecha de Presentacion" />
+          <ScalarProperty Name="Fecha_de_Pago" ColumnName="Fecha de Pago" />
+          <ScalarProperty Name="Nro__de_Cupon" ColumnName="Nro# de Cupon" />
+          <ScalarProperty Name="Nro__de_Comercio" ColumnName="Nro# de Comercio" />
+          <ScalarProperty Name="Nro__de_Tarjeta" ColumnName="Nro# de Tarjeta" />
+          <ScalarProperty Name="Moneda" ColumnName="Moneda" />
+          <ScalarProperty Name="Total_Bruto" ColumnName="Total Bruto" />
+          <ScalarProperty Name="Total_Descuento" ColumnName="Total Descuento" />
+          <ScalarProperty Name="Total_Neto" ColumnName="Total Neto" />
+          <ScalarProperty Name="Entidad_Pagadora" ColumnName="Entidad Pagadora" />
+          <ScalarProperty Name="Cuenta_Bancaria" ColumnName="Cuenta Bancaria" />
+          <ScalarProperty Name="Nro__Liquidacion" ColumnName="Nro# Liquidacion" />
+          <ScalarProperty Name="Nro__de_Lote" ColumnName="Nro# de Lote" />
+          <ScalarProperty Name="Tipo_de_Liquidacion" ColumnName="Tipo de Liquidacion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Cuotas" ColumnName="Cuotas" />
+          <ScalarProperty Name="Nro__de_Autorizacion" ColumnName="Nro# de Autorizacion" />
+          <ScalarProperty Name="Tarjeta" ColumnName="Tarjeta" />
+          <ScalarProperty Name="Tipo_de_Operacion" ColumnName="Tipo de Operacion" />
+          <ScalarProperty Name="Comercio_Participante" ColumnName="Comercio Participante" />
+          <ScalarProperty Name="Promocion_Plan" ColumnName="Promocion Plan" />
+          <ScalarProperty Name="Tarjeta_Tipo" ColumnName="Tarjeta-Tipo" />
+          <ScalarProperty Name="Costo_Financiero" ColumnName="Costo Financiero" />
+          <ScalarProperty Name="Costo_Financiero_en__" ColumnName="Costo Financiero en $" />
+          <ScalarProperty Name="Tipo_de_Financiacion" ColumnName="Tipo de Financiacion" />
+          <ScalarProperty Name="Costo_por_anticipo" ColumnName="Costo por anticipo" />
+          <ScalarProperty Name="C__Comision_con_IVA" ColumnName="% Comision con IVA" />
+          <ScalarProperty Name="Arancel" ColumnName="Arancel" />
+          <ScalarProperty Name="IVA_21_" ColumnName="IVA 21%" />
+          <ScalarProperty Name="IMPUESTO_DEBITO_CREDITO" ColumnName="IMPUESTO DEBITO/CREDITO" />
+          <ScalarProperty Name="CUIT" ColumnName="CUIT" />
+          <ScalarProperty Name="Condicion_Fiscal" ColumnName="Condicion Fiscal" />
+          <ScalarProperty Name="Provincia" ColumnName="Provincia" />
+          <ScalarProperty Name="Retencion_Provincial" ColumnName="Retencion Provincial" />
+          <ScalarProperty Name="Retencion_Ganacia" ColumnName="Retencion Ganacia" />
+          <ScalarProperty Name="Retencion_IVA" ColumnName="Retencion IVA" />
+          <ScalarProperty Name="Total_Con_descuentos" ColumnName="Total Con descuentos" />
+          <ScalarProperty Name="CBU_CVU" ColumnName="CBU/CVU" />
+          <ScalarProperty Name="Banco" ColumnName="Banco" />
+          <ScalarProperty Name="Tipo_de_cuenta" ColumnName="Tipo de cuenta" />
+          <ScalarProperty Name="Nro_de_cuenta" ColumnName="Nro de cuenta" />
+          <ScalarProperty Name="Alias" ColumnName="Alias" />
+          <ScalarProperty Name="Nombre_Comercio" ColumnName="Nombre Comercio" />
+          <ScalarProperty Name="Retencion_Municipal" ColumnName="Retencion Municipal" />
+          <ScalarProperty Name="RETENCION" ColumnName="RETENCION" />
+          <ScalarProperty Name="Retencion_impositiva" ColumnName="Retencion impositiva" />
+          <ScalarProperty Name="Asesor_ABM" ColumnName="Asesor ABM" />
+          <ScalarProperty Name="Rubro" ColumnName="Rubro" />
+          <ScalarProperty Name="Fecha_Alta_comercio" ColumnName="Fecha Alta comercio" />
+          <ScalarProperty Name="Provincia_ABM" ColumnName="Provincia ABM" />
+          <ScalarProperty Name="Razon_Social" ColumnName="Razon Social" />
+          <ScalarProperty Name="Legajo" ColumnName="Legajo" />
+          <ScalarProperty Name="Cod__Actividad" ColumnName="Cod. Actividad" />
+          <ScalarProperty Name="Año_op" ColumnName="Año_op" />
+          <ScalarProperty Name="Mes_op" ColumnName="Mes_op" />
+          <ScalarProperty Name="Año_Pago" ColumnName="Año_Pago" />
+          <ScalarProperty Name="Mes_Pago" ColumnName="Mes_Pago" />
+          <ScalarProperty Name="semana_mes_pago" ColumnName="semana_mes_pago" />
+          <ScalarProperty Name="semana_mes_op" ColumnName="semana_mes_op" />
+          <ScalarProperty Name="dia_semana" ColumnName="dia_semana" />
+          <ScalarProperty Name="TIPO_DE_CREDITO" ColumnName="TIPO DE CREDITO" />
+          <ScalarProperty Name="Tipo_Financiacion" ColumnName="Tipo_Financiacion" />
+          <ScalarProperty Name="Codigo_Postal" ColumnName="Codigo Postal" />
+          <ScalarProperty Name="Fecha_OP" ColumnName="Fecha OP" />
+          <ScalarProperty Name="Arancel_Fiserv" ColumnName="Arancel Fiserv" />
+          <ScalarProperty Name="Pago_Real" ColumnName="Pago Real" />
+          <ScalarProperty Name="dias_habiles" ColumnName="dias habiles" />
+          <ScalarProperty Name="Formula_anticipo" ColumnName="Formula anticipo" />
+          <ScalarProperty Name="TASA_PREFERENCIAL" ColumnName="TASA_PREFERENCIAL" />
+          <ScalarProperty Name="fecha_tasa_preferencial" ColumnName="fecha tasa preferencial" />
+          <ScalarProperty Name="Fecha_inicio" ColumnName="Fecha inicio" />
+          <ScalarProperty Name="ganancia" ColumnName="ganancia" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="Debito_credito" ColumnName="Debito/credito" />
+          <ScalarProperty Name="COD__ACTIVIDAD_RENTAS" ColumnName="COD# ACTIVIDAD RENTAS" />
+          <ScalarProperty Name="anticipo_" ColumnName="anticipo%" />
+          <ScalarProperty Name="BONIFICACION" ColumnName="BONIFICACION" />
+          <ScalarProperty Name="FECHA2" ColumnName="FECHA2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

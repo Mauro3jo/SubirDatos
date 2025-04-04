@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubirDatos", "SubirDatos.csproj", "{A623EB43-8DF1-4128-997B-66F2F755C6EC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Zoco Subir Datos", "..\Zoco Subir Datos\Zoco Subir Datos.vdproj", "{8E5890DD-4CD2-4A35-92E4-D86FF72E4976}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A623EB43-8DF1-4128-997B-66F2F755C6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A623EB43-8DF1-4128-997B-66F2F755C6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A623EB43-8DF1-4128-997B-66F2F755C6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A623EB43-8DF1-4128-997B-66F2F755C6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E5890DD-4CD2-4A35-92E4-D86FF72E4976}.Debug|Any CPU.ActiveCfg = Debug
+		{8E5890DD-4CD2-4A35-92E4-D86FF72E4976}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AEA87D5-918B-443A-B005-51893C9C617A}
+	EndGlobalSection
+EndGlobal

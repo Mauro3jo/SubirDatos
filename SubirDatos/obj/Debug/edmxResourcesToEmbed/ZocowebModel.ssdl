@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="zocoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'zoco.dbo.base_dashboard' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="base_dashboard">
+    <Key>
+      <PropertyRef Name="TIPO DE CREDITO" />
+    </Key>
+    <Property Name="Fecha Operacion" Type="datetime" />
+    <Property Name="Fecha de Presentacion" Type="nvarchar" MaxLength="255" />
+    <Property Name="Fecha de Pago" Type="datetime" />
+    <Property Name="Nro# de Cupon" Type="nvarchar" MaxLength="255" />
+    <Property Name="Nro# de Comercio" Type="float" />
+    <Property Name="Nro# de Tarjeta" Type="float" />
+    <Property Name="Moneda" Type="nvarchar" MaxLength="255" />
+    <Property Name="Total Bruto" Type="money" />
+    <Property Name="Total Descuento" Type="money" />
+    <Property Name="Total Neto" Type="money" />
+    <Property Name="Entidad Pagadora" Type="nvarchar" MaxLength="255" />
+    <Property Name="Cuenta Bancaria" Type="nvarchar" MaxLength="255" />
+    <Property Name="Nro# Liquidacion" Type="nvarchar" MaxLength="255" />
+    <Property Name="Nro# de Lote" Type="nvarchar" MaxLength="255" />
+    <Property Name="Tipo de Liquidacion" Type="nvarchar" MaxLength="255" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="255" />
+    <Property Name="Cuotas" Type="float" />
+    <Property Name="Nro# de Autorizacion" Type="float" />
+    <Property Name="Tarjeta" Type="nvarchar" MaxLength="255" />
+    <Property Name="Tipo de Operacion" Type="nvarchar" MaxLength="255" />
+    <Property Name="Comercio Participante" Type="nvarchar" MaxLength="255" />
+    <Property Name="Promocion Plan" Type="nvarchar" MaxLength="255" />
+    <Property Name="Tarjeta-Tipo" Type="nvarchar" MaxLength="255" />
+    <Property Name="Costo Financiero" Type="float" />
+    <Property Name="Costo Financiero en $" Type="money" />
+    <Property Name="Tipo de Financiacion" Type="nvarchar" MaxLength="255" />
+    <Property Name="Costo por anticipo" Type="money" />
+    <Property Name="% Comision con IVA" Type="float" />
+    <Property Name="Arancel" Type="money" />
+    <Property Name="IVA 21%" Type="money" />
+    <Property Name="IMPUESTO DEBITO/CREDITO" Type="money" />
+    <Property Name="CUIT" Type="float" />
+    <Property Name="Condicion Fiscal" Type="nvarchar" MaxLength="255" />
+    <Property Name="Provincia" Type="nvarchar" MaxLength="255" />
+    <Property Name="Retencion Provincial" Type="money" />
+    <Property Name="Retencion Ganacia" Type="money" />
+    <Property Name="Retencion IVA" Type="money" />
+    <Property Name="Total Con descuentos" Type="money" />
+    <Property Name="CBU/CVU" Type="nvarchar" MaxLength="255" />
+    <Property Name="Banco" Type="nvarchar" MaxLength="255" />
+    <Property Name="Tipo de cuenta" Type="nvarchar" MaxLength="255" />
+    <Property Name="Nro de cuenta" Type="nvarchar" MaxLength="255" />
+    <Property Name="Alias" Type="nvarchar" MaxLength="255" />
+    <Property Name="Nombre Comercio" Type="nvarchar" MaxLength="255" />
+    <Property Name="Retencion Municipal" Type="money" />
+    <Property Name="RETENCION" Type="nvarchar" MaxLength="255" />
+    <Property Name="Retencion impositiva" Type="money" />
+    <Property Name="Asesor ABM" Type="nvarchar" MaxLength="255" />
+    <Property Name="Rubro" Type="nvarchar" MaxLength="255" />
+    <Property Name="Fecha Alta comercio" Type="float" />
+    <Property Name="Provincia ABM" Type="nvarchar" MaxLength="255" />
+    <Property Name="Razon Social" Type="nvarchar" MaxLength="255" />
+    <Property Name="Legajo" Type="float" />
+    <Property Name="Cod. Actividad" Type="float" />
+    <Property Name="Año_op" Type="int" StoreGeneratedPattern="Computed" />
+    <Property Name="Mes_op" Type="int" StoreGeneratedPattern="Computed" />
+    <Property Name="Año_Pago" Type="int" StoreGeneratedPattern="Computed" />
+    <Property Name="Mes_Pago" Type="int" StoreGeneratedPattern="Computed" />
+    <Property Name="semana_mes_pago" Type="int" StoreGeneratedPattern="Computed" />
+    <Property Name="semana_mes_op" Type="int" StoreGeneratedPattern="Computed" />
+    <Property Name="dia_semana" Type="varchar" MaxLength="9" StoreGeneratedPattern="Computed" />
+    <Property Name="TIPO DE CREDITO" Type="varchar" MaxLength="7" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="Tipo_Financiacion" Type="nvarchar" MaxLength="255" StoreGeneratedPattern="Computed" />
+    <Property Name="Codigo Postal" Type="float" />
+    <Property Name="Fecha OP" Type="datetime" />
+    <Property Name="Arancel Fiserv" Type="money" />
+    <Property Name="Pago Real" Type="nvarchar" MaxLength="255" />
+    <Property Name="dias habiles" Type="int" />
+    <Property Name="Formula anticipo" Type="money" />
+    <Property Name="TASA_PREFERENCIAL" Type="nvarchar" MaxLength="255" />
+    <Property Name="fecha tasa preferencial" Type="datetime" />
+    <Property Name="Fecha inicio" Type="datetime" />
+    <Property Name="ganancia" Type="float" />
+    <Property Name="fecha" Type="datetime" />
+    <Property Name="Debito/credito" Type="nvarchar" MaxLength="255" />
+    <Property Name="COD# ACTIVIDAD RENTAS" Type="float" />
+    <Property Name="anticipo%" Type="nvarchar" MaxLength="255" />
+    <Property Name="BONIFICACION" Type="nvarchar" MaxLength="255" />
+    <Property Name="FECHA2" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PagosPendientes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FechaOperacion" Type="datetime" />
+    <Property Name="MarcaTarjeta" Type="nvarchar" MaxLength="100" />
+    <Property Name="Importe" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="NroTerminal" Type="nvarchar" MaxLength="50" />
+    <Property Name="Resultado" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cuota" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="UsuariosSubirBase">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Usuario" Type="nvarchar" MaxLength="25" />
+    <Property Name="password" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="zocoModelStoreContainer">
+    <EntitySet Name="PagosPendientes" EntityType="Self.PagosPendientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsuariosSubirBase" EntityType="Self.UsuariosSubirBase" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="base_dashboard" EntityType="Self.base_dashboard" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [base_dashboard].[Fecha Operacion] AS [Fecha Operacion], 
+    [base_dashboard].[Fecha de Presentacion] AS [Fecha de Presentacion], 
+    [base_dashboard].[Fecha de Pago] AS [Fecha de Pago], 
+    [base_dashboard].[Nro# de Cupon] AS [Nro# de Cupon], 
+    [base_dashboard].[Nro# de Comercio] AS [Nro# de Comercio], 
+    [base_dashboard].[Nro# de Tarjeta] AS [Nro# de Tarjeta], 
+    [base_dashboard].[Moneda] AS [Moneda], 
+    [base_dashboard].[Total Bruto] AS [Total Bruto], 
+    [base_dashboard].[Total Descuento] AS [Total Descuento], 
+    [base_dashboard].[Total Neto] AS [Total Neto], 
+    [base_dashboard].[Entidad Pagadora] AS [Entidad Pagadora], 
+    [base_dashboard].[Cuenta Bancaria] AS [Cuenta Bancaria], 
+    [base_dashboard].[Nro# Liquidacion] AS [Nro# Liquidacion], 
+    [base_dashboard].[Nro# de Lote] AS [Nro# de Lote], 
+    [base_dashboard].[Tipo de Liquidacion] AS [Tipo de Liquidacion], 
+    [base_dashboard].[Estado] AS [Estado], 
+    [base_dashboard].[Cuotas] AS [Cuotas], 
+    [base_dashboard].[Nro# de Autorizacion] AS [Nro# de Autorizacion], 
+    [base_dashboard].[Tarjeta] AS [Tarjeta], 
+    [base_dashboard].[Tipo de Operacion] AS [Tipo de Operacion], 
+    [base_dashboard].[Comercio Participante] AS [Comercio Participante], 
+    [base_dashboard].[Promocion Plan] AS [Promocion Plan], 
+    [base_dashboard].[Tarjeta-Tipo] AS [Tarjeta-Tipo], 
+    [base_dashboard].[Costo Financiero] AS [Costo Financiero], 
+    [base_dashboard].[Costo Financiero en $] AS [Costo Financiero en $], 
+    [base_dashboard].[Tipo de Financiacion] AS [Tipo de Financiacion], 
+    [base_dashboard].[Costo por anticipo] AS [Costo por anticipo], 
+    [base_dashboard].[% Comision con IVA] AS [% Comision con IVA], 
+    [base_dashboard].[Arancel] AS [Arancel], 
+    [base_dashboard].[IVA 21%] AS [IVA 21%], 
+    [base_dashboard].[IMPUESTO DEBITO/CREDITO] AS [IMPUESTO DEBITO/CREDITO], 
+    [base_dashboard].[CUIT] AS [CUIT], 
+    [base_dashboard].[Condicion Fiscal] AS [Condicion Fiscal], 
+    [base_dashboard].[Provincia] AS [Provincia], 
+    [base_dashboard].[Retencion Provincial] AS [Retencion Provincial], 
+    [base_dashboard].[Retencion Ganacia] AS [Retencion Ganacia], 
+    [base_dashboard].[Retencion IVA] AS [Retencion IVA], 
+    [base_dashboard].[Total Con descuentos] AS [Total Con descuentos], 
+    [base_dashboard].[CBU/CVU] AS [CBU/CVU], 
+    [base_dashboard].[Banco] AS [Banco], 
+    [base_dashboard].[Tipo de cuenta] AS [Tipo de cuenta], 
+    [base_dashboard].[Nro de cuenta] AS [Nro de cuenta], 
+    [base_dashboard].[Alias] AS [Alias], 
+    [base_dashboard].[Nombre Comercio] AS [Nombre Comercio], 
+    [base_dashboard].[Retencion Municipal] AS [Retencion Municipal], 
+    [base_dashboard].[RETENCION] AS [RETENCION], 
+    [base_dashboard].[Retencion impositiva] AS [Retencion impositiva], 
+    [base_dashboard].[Asesor ABM] AS [Asesor ABM], 
+    [base_dashboard].[Rubro] AS [Rubro], 
+    [base_dashboard].[Fecha Alta comercio] AS [Fecha Alta comercio], 
+    [base_dashboard].[Provincia ABM] AS [Provincia ABM], 
+    [base_dashboard].[Razon Social] AS [Razon Social], 
+    [base_dashboard].[Legajo] AS [Legajo], 
+    [base_dashboard].[Cod. Actividad] AS [Cod. Actividad], 
+    [base_dashboard].[Año_op] AS [Año_op], 
+    [base_dashboard].[Mes_op] AS [Mes_op], 
+    [base_dashboard].[Año_Pago] AS [Año_Pago], 
+    [base_dashboard].[Mes_Pago] AS [Mes_Pago], 
+    [base_dashboard].[semana_mes_pago] AS [semana_mes_pago], 
+    [base_dashboard].[semana_mes_op] AS [semana_mes_op], 
+    [base_dashboard].[dia_semana] AS [dia_semana], 
+    [base_dashboard].[TIPO DE CREDITO] AS [TIPO DE CREDITO], 
+    [base_dashboard].[Tipo_Financiacion] AS [Tipo_Financiacion], 
+    [base_dashboard].[Codigo Postal] AS [Codigo Postal], 
+    [base_dashboard].[Fecha OP] AS [Fecha OP], 
+    [base_dashboard].[Arancel Fiserv] AS [Arancel Fiserv], 
+    [base_dashboard].[Pago Real] AS [Pago Real], 
+    [base_dashboard].[dias habiles] AS [dias habiles], 
+    [base_dashboard].[Formula anticipo] AS [Formula anticipo], 
+    [base_dashboard].[TASA_PREFERENCIAL] AS [TASA_PREFERENCIAL], 
+    [base_dashboard].[fecha tasa preferencial] AS [fecha tasa preferencial], 
+    [base_dashboard].[Fecha inicio] AS [Fecha inicio], 
+    [base_dashboard].[ganancia] AS [ganancia], 
+    [base_dashboard].[fecha] AS [fecha], 
+    [base_dashboard].[Debito/credito] AS [Debito/credito], 
+    [base_dashboard].[COD# ACTIVIDAD RENTAS] AS [COD# ACTIVIDAD RENTAS], 
+    [base_dashboard].[anticipo%] AS [anticipo%], 
+    [base_dashboard].[BONIFICACION] AS [BONIFICACION], 
+    [base_dashboard].[FECHA2] AS [FECHA2]
+    FROM [dbo].[base_dashboard] AS [base_dashboard]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
