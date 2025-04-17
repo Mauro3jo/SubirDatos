@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|c:\\users\\zoco it\\documents\\github\\subirdatos\\subirdatos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\subirqrmultipleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:subirqrmultipleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\subirqrmultipleform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:subirqrmultipleform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\54381\\Desktop\\Nueva carpeta\\SubirDatos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\subirdatospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:subirdatospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\subirqrmultipleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:subirqrmultipleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\subirdatospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:subirdatospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2043440128:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T16:25:54.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubirQRMultipleForm.cs",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\SubirQRMultipleForm.cs",
+              "RelativeDocumentMoniker": "SubirQRMultipleForm.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\SubirQRMultipleForm.cs",
+              "RelativeToolTip": "SubirQRMultipleForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T15:42:34.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubirQRMultipleForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\SubirQRMultipleForm.Designer.cs",
+              "RelativeDocumentMoniker": "SubirQRMultipleForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\SubirQRMultipleForm.Designer.cs",
+              "RelativeToolTip": "SubirQRMultipleForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T15:42:34.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\54381\\Desktop\\Nueva carpeta\\SubirDatos\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\54381\\Desktop\\Nueva carpeta\\SubirDatos\\appsettings.json",
+              "ToolTip": "C:\\Users\\54381\\Desktop\\Nueva carpeta\\SubirDatos\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\54381\\Desktop\\Nueva carpeta\\SubirDatos\\appsettings.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T15:42:34.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SubirQRMultipleForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\SubirQRMultipleForm.cs",
+              "RelativeDocumentMoniker": "SubirQRMultipleForm.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\SubirQRMultipleForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SubirQRMultipleForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T15:42:34.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubirDatosPendientesForm.cs",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\SubirDatosPendientesForm.cs",
+              "RelativeDocumentMoniker": "SubirDatosPendientesForm.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\SubirDatosPendientesForm.cs",
+              "RelativeToolTip": "SubirDatosPendientesForm.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAuwFYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-15T15:42:34.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SubirDatosPendientesForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\SubirDatosPendientesForm.cs",
+              "RelativeDocumentMoniker": "SubirDatosPendientesForm.cs",
+              "ToolTip": "C:\\Users\\54381\\Desktop\\Nueva carpeta\\SubirDatos\\SubirDatosPendientesForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\54381\\Desktop\\Nueva carpeta\\SubirDatos\\SubirDatosPendientesForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-15T15:42:34.074Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 7,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1133447668:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
