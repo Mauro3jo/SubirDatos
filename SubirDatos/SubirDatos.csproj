@@ -137,6 +137,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="JuntarCSVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JuntarCSVForm.Designer.cs">
+      <DependentUpon>JuntarCSVForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>

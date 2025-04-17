@@ -14,11 +14,11 @@ namespace SubirDatos
             lblBaseDatos.Text = "Conectado a: " + connectionString;
         }
 
-        private void btnSubirPendientes_Click(object sender, EventArgs e)
-        {
-            SubirDatosPendientesForm pendientesForm = new SubirDatosPendientesForm(connectionString);
-            pendientesForm.Show();
-        }
+        //private void btnSubirPendientes_Click(object sender, EventArgs e)
+        //{
+        //    SubirDatosPendientesForm pendientesForm = new SubirDatosPendientesForm(connectionString);
+        //    pendientesForm.Show();
+        //}
 
         private void btnSubirQR_Click(object sender, EventArgs e)
         {
@@ -26,10 +26,16 @@ namespace SubirDatos
             qrForm.Show();
         }
 
-        private void btnAcumularQR_Click(object sender, EventArgs e)
+        //private void btnAcumularQR_Click(object sender, EventArgs e)
+        //{
+        //    SubirQRMultipleForm acumularQRForm = new SubirQRMultipleForm(connectionString);
+        //    acumularQRForm.Show();
+        //}
+
+        private void btnJuntarCSV_Click(object sender, EventArgs e)
         {
-            SubirQRMultipleForm acumularQRForm = new SubirQRMultipleForm(connectionString);
-            acumularQRForm.Show();
+            JuntarCSVForm juntarForm = new JuntarCSVForm(connectionString);
+            juntarForm.Show();
         }
     }
 }

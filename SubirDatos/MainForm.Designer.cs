@@ -21,6 +21,7 @@
             this.btnSubirPendientes = new System.Windows.Forms.Button();
             this.btnSubirQR = new System.Windows.Forms.Button();
             this.btnAcumularQR = new System.Windows.Forms.Button(); // Nuevo botón
+            this.btnJuntarCSV = new System.Windows.Forms.Button(); // Botón para juntar CSVs
 
             this.SuspendLayout();
 
@@ -32,14 +33,14 @@
             this.lblBaseDatos.TabIndex = 0;
             this.lblBaseDatos.Text = "Conectado a: Ninguno";
 
-            // btnSubirPendientes
-            this.btnSubirPendientes.Location = new System.Drawing.Point(50, 70);
-            this.btnSubirPendientes.Name = "btnSubirPendientes";
-            this.btnSubirPendientes.Size = new System.Drawing.Size(200, 35);
-            this.btnSubirPendientes.TabIndex = 1;
-            this.btnSubirPendientes.Text = "Subir Datos Pendientes";
-            this.btnSubirPendientes.UseVisualStyleBackColor = true;
-            this.btnSubirPendientes.Click += new System.EventHandler(this.btnSubirPendientes_Click);
+            //// btnSubirPendientes
+            //this.btnSubirPendientes.Location = new System.Drawing.Point(50, 70);
+            //this.btnSubirPendientes.Name = "btnSubirPendientes";
+            //this.btnSubirPendientes.Size = new System.Drawing.Size(200, 35);
+            //this.btnSubirPendientes.TabIndex = 1;
+            //this.btnSubirPendientes.Text = "Subir Datos Pendientes";
+            //this.btnSubirPendientes.UseVisualStyleBackColor = true;
+            //this.btnSubirPendientes.Click += new System.EventHandler(this.btnSubirPendientes_Click);
 
             // btnSubirQR
             this.btnSubirQR.Location = new System.Drawing.Point(50, 120);
@@ -50,19 +51,29 @@
             this.btnSubirQR.UseVisualStyleBackColor = true;
             this.btnSubirQR.Click += new System.EventHandler(this.btnSubirQR_Click);
 
-            // btnAcumularQR (nuevo botón)
-            this.btnAcumularQR.Location = new System.Drawing.Point(50, 170);
-            this.btnAcumularQR.Name = "btnAcumularQR";
-            this.btnAcumularQR.Size = new System.Drawing.Size(200, 35);
-            this.btnAcumularQR.TabIndex = 3;
-            this.btnAcumularQR.Text = "Acumular QR (CSV)";
-            this.btnAcumularQR.UseVisualStyleBackColor = true;
-            this.btnAcumularQR.Click += new System.EventHandler(this.btnAcumularQR_Click);
+            //// btnAcumularQR (nuevo botón)
+            //this.btnAcumularQR.Location = new System.Drawing.Point(50, 170);
+            //this.btnAcumularQR.Name = "btnAcumularQR";
+            //this.btnAcumularQR.Size = new System.Drawing.Size(200, 35);
+            //this.btnAcumularQR.TabIndex = 3;
+            //this.btnAcumularQR.Text = "Acumular QR (CSV)";
+            //this.btnAcumularQR.UseVisualStyleBackColor = true;
+            //this.btnAcumularQR.Click += new System.EventHandler(this.btnAcumularQR_Click);
+
+            // btnJuntarCSV
+            this.btnJuntarCSV.Location = new System.Drawing.Point(50, 220);
+            this.btnJuntarCSV.Name = "btnJuntarCSV";
+            this.btnJuntarCSV.Size = new System.Drawing.Size(200, 35);
+            this.btnJuntarCSV.TabIndex = 4;
+            this.btnJuntarCSV.Text = "Juntar CSV";
+            this.btnJuntarCSV.UseVisualStyleBackColor = true;
+            this.btnJuntarCSV.Click += new System.EventHandler(this.btnJuntarCSV_Click);
 
             // MainForm
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(400, 240);
+            this.ClientSize = new System.Drawing.Size(400, 280);
+            this.Controls.Add(this.btnJuntarCSV);
             this.Controls.Add(this.btnAcumularQR);
             this.Controls.Add(this.btnSubirQR);
             this.Controls.Add(this.btnSubirPendientes);
@@ -79,5 +90,6 @@
         private System.Windows.Forms.Button btnSubirPendientes;
         private System.Windows.Forms.Button btnSubirQR;
         private System.Windows.Forms.Button btnAcumularQR; // Declaración del nuevo botón
+        private System.Windows.Forms.Button btnJuntarCSV; // Declaración del botón juntar CSV
     }
 }
