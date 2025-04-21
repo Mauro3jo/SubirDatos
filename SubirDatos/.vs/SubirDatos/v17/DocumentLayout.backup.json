@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|c:\\users\\zoco it\\documents\\github\\subirdatos\\subirdatos\\juntarcsvform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\juntarcsvform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:juntarcsvform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|c:\\users\\zoco it\\documents\\github\\subirdatos\\subirdatos\\juntarcsvform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:juntarcsvform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\juntarcsvform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:juntarcsvform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|c:\\users\\zoco it\\documents\\github\\subirdatos\\subirdatos\\juntarcsvform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:juntarcsvform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|c:\\users\\zoco it\\documents\\github\\subirdatos\\subirdatos\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\juntarcsvform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A623EB43-8DF1-4128-997B-66F2F755C6EC}|SubirDatos.csproj|solutionrelative:juntarcsvform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,15 +74,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JuntarCSVForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\JuntarCSVForm.Designer.cs",
-              "RelativeDocumentMoniker": "JuntarCSVForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\JuntarCSVForm.Designer.cs",
-              "RelativeToolTip": "JuntarCSVForm.Designer.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:11:23.084Z",
+              "WhenOpened": "2025-04-21T16:05:57.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAIwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:02:13.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\MainForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MainForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:02:11.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JuntarCSVForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\JuntarCSVForm.cs",
+              "RelativeDocumentMoniker": "JuntarCSVForm.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\JuntarCSVForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JuntarCSVForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T13:11:05.354Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:32:37.892Z",
               "EditorCaption": ""
             },
             {
@@ -69,22 +142,48 @@
               "RelativeDocumentMoniker": "JuntarCSVForm.cs",
               "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\JuntarCSVForm.cs",
               "RelativeToolTip": "JuntarCSVForm.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAmwAgBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAcwOAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T13:11:06.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JuntarCSVForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\JuntarCSVForm.cs",
-              "RelativeDocumentMoniker": "JuntarCSVForm.cs",
-              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\JuntarCSVForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "JuntarCSVForm.cs [Dise\u00F1o]",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\LoginForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "LoginForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:11:05.354Z",
+              "WhenOpened": "2025-04-21T16:32:36.417Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JuntarCSVForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\JuntarCSVForm.Designer.cs",
+              "RelativeDocumentMoniker": "JuntarCSVForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\JuntarCSVForm.Designer.cs",
+              "RelativeToolTip": "JuntarCSVForm.Designer.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T13:11:23.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Zoco IT\\Documents\\GitHub\\SubirDatos\\SubirDatos\\LoginForm.Designer.cs",
+              "RelativeToolTip": "LoginForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:33:41.35Z",
+              "EditorCaption": ""
             }
           ]
         },

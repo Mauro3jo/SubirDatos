@@ -88,7 +88,7 @@ namespace SubirDatos
 
         private void btnExportarExcel_Click(object sender, EventArgs e)
         {
-            ExportarExcel(datosCSV, "JuntadoCSV.xlsx", "DatosCSV");
+            ExportarExcel(datosCSV, "QRCompleto.xlsx", "DatosCSV");
         }
 
         private void btnRecortarCSV_Click(object sender, EventArgs e)
@@ -207,8 +207,26 @@ namespace SubirDatos
                 return;
             }
 
-            ExportarExcel(datosRecortados, "RecorteTransferencias.xlsx", "Recorte");
+            // Buscar la fecha más alta en "Fecha de Pago"
+            DateTime fechaMaxima = DateTime.Today;
+            foreach (DataRow fila in datosRecortados.Rows)
+            {
+                if (DateTime.TryParse(fila["Fecha de Pago"]?.ToString(), out DateTime fechaPago))
+                {
+                    if (fechaPago > fechaMaxima)
+                        fechaMaxima = fechaPago;
+                }
+            }
+
+            // Sumar 1 día
+            DateTime fechaFinal = fechaMaxima.AddDays(1);
+
+            // Nombre de archivo personalizado
+            string nombreArchivo = $"QR-SAS-{fechaFinal:yyyyMMdd}.xlsx";
+
+            ExportarExcel(datosRecortados, nombreArchivo, "Recorte");
         }
+
 
         private void ExportarExcel(DataTable tabla, string defaultName, string hoja)
         {
@@ -274,6 +292,7 @@ namespace SubirDatos
                     }
 
                     MessageBox.Show("✅ Archivo exportado con éxito.");
+
                 }
                 catch (Exception ex)
                 {

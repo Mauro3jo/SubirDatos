@@ -31,7 +31,7 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.cmbBaseDatos = new System.Windows.Forms.ComboBox();
+            //this.cmbBaseDatos = new System.Windows.Forms.ComboBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblContraseña = new System.Windows.Forms.Label();
             this.lblBaseDatos = new System.Windows.Forms.Label();
@@ -54,12 +54,12 @@
             // 
             // cmbBaseDatos
             // 
-            this.cmbBaseDatos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbBaseDatos.FormattingEnabled = true;
-            this.cmbBaseDatos.Location = new System.Drawing.Point(150, 150);
-            this.cmbBaseDatos.Name = "cmbBaseDatos";
-            this.cmbBaseDatos.Size = new System.Drawing.Size(200, 24);
-            this.cmbBaseDatos.TabIndex = 2;
+            //this.cmbBaseDatos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            //this.cmbBaseDatos.FormattingEnabled = true;
+            //this.cmbBaseDatos.Location = new System.Drawing.Point(150, 150);
+            //this.cmbBaseDatos.Name = "cmbBaseDatos";
+            //this.cmbBaseDatos.Size = new System.Drawing.Size(200, 24);
+            //this.cmbBaseDatos.TabIndex = 2;
             // 
             // btnLogin
             // 
@@ -89,14 +89,14 @@
             this.lblContraseña.TabIndex = 5;
             this.lblContraseña.Text = "Contraseña:";
             // 
-            // lblBaseDatos
-            // 
-            this.lblBaseDatos.AutoSize = true;
-            this.lblBaseDatos.Location = new System.Drawing.Point(50, 150);
-            this.lblBaseDatos.Name = "lblBaseDatos";
-            this.lblBaseDatos.Size = new System.Drawing.Size(93, 16);
-            this.lblBaseDatos.TabIndex = 6;
-            this.lblBaseDatos.Text = "Base de Datos:";
+            //// lblBaseDatos
+            //// 
+            //this.lblBaseDatos.AutoSize = true;
+            //this.lblBaseDatos.Location = new System.Drawing.Point(50, 150);
+            //this.lblBaseDatos.Name = "lblBaseDatos";
+            //this.lblBaseDatos.Size = new System.Drawing.Size(93, 16);
+            //this.lblBaseDatos.TabIndex = 6;
+            //this.lblBaseDatos.Text = "Base de Datos:";
             // 
             // LoginForm
             // 
@@ -105,7 +105,7 @@
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.cmbBaseDatos);
+            //this.Controls.Add(this.cmbBaseDatos);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtUsuario);
             this.Name = "LoginForm";
@@ -119,7 +119,7 @@
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.ComboBox cmbBaseDatos;
+        //private System.Windows.Forms.ComboBox cmbBaseDatos;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblContraseña;
         private System.Windows.Forms.Label lblBaseDatos;

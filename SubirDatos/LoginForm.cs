@@ -11,19 +11,20 @@ namespace SubirDatos
         {
             InitializeComponent();
 
-            // Agregar opciones al ComboBox
-            cmbBaseDatos.Items.Add("DemoDB");
-            cmbBaseDatos.Items.Add("ProdDB");
-            cmbBaseDatos.SelectedIndex = 0; // Por defecto, apunta a la base local
+            // 👇 ComboBox ya no se usa, así que esto se elimina o se comenta
+            //cmbBaseDatos.Items.Add("DemoDB");
+            //cmbBaseDatos.Items.Add("ProdDB");
+            //cmbBaseDatos.SelectedIndex = 0;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string usuarioIngresado = txtUsuario.Text.Trim();
             string contraseñaIngresada = txtContraseña.Text.Trim();
-            string selectedDB = cmbBaseDatos.SelectedItem.ToString();
 
-            // Obtener connection string desde Config
+            // Siempre usar ProdDB directamente
+            string selectedDB = "ProdDB";
+
             string connectionString = Config.GetConnectionString(selectedDB);
 
             if (string.IsNullOrEmpty(connectionString))
@@ -38,29 +39,34 @@ namespace SubirDatos
                 {
                     conn.Open();
 
-                    string query = @"SELECT Usuario 
-                                     FROM UsuariosSubirBase 
-                                     WHERE LOWER(Usuario) = LOWER(@Usuario) 
-                                     AND RTRIM(password) = RTRIM(@Password)";
+                    string query = @"SELECT Usuario, EsAdmin 
+                             FROM UsuariosSubirBase 
+                             WHERE LOWER(Usuario) = LOWER(@Usuario) 
+                             AND RTRIM(password) = RTRIM(@Password)";
 
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@Usuario", usuarioIngresado.ToLower());
                         cmd.Parameters.AddWithValue("@Password", contraseñaIngresada);
 
-                        var usuarioEncontrado = cmd.ExecuteScalar();
-
-                        if (usuarioEncontrado != null)
+                        using (SqlDataReader reader = cmd.ExecuteReader())
                         {
-                            MessageBox.Show($"✅ Login exitoso. Bienvenido {usuarioEncontrado}.\nConectado a: {selectedDB}");
-                            this.Hide();
+                            if (reader.Read())
+                            {
+                                string nombreUsuario = reader["Usuario"].ToString();
+                                bool esAdmin = Convert.ToBoolean(reader["EsAdmin"]);
 
-                            MainForm mainForm = new MainForm(connectionString);
-                            mainForm.Show();
-                        }
-                        else
-                        {
-                            MessageBox.Show("❌ Usuario o contraseña incorrectos.");
+                                MessageBox.Show($"✅ Login exitoso. Bienvenido {nombreUsuario}.\nConectado a: {selectedDB}");
+                                this.Hide();
+
+                                // Le pasamos también el flag de admin al MainForm
+                                MainForm mainForm = new MainForm(connectionString, esAdmin);
+                                mainForm.Show();
+                            }
+                            else
+                            {
+                                MessageBox.Show("❌ Usuario o contraseña incorrectos.");
+                            }
                         }
                     }
                 }

@@ -102,3 +102,7 @@ C:\Users\Zoco IT\Documents\GitHub\SubirDatos\SubirDatos\obj\Debug\SubirDatos.csp
 C:\Users\Zoco IT\Documents\GitHub\SubirDatos\SubirDatos\obj\Debug\SubirDatos.csproj.Up2Date
 C:\Users\Zoco IT\Documents\GitHub\SubirDatos\SubirDatos\obj\Debug\SubirDatos.exe
 C:\Users\Zoco IT\Documents\GitHub\SubirDatos\SubirDatos\obj\Debug\SubirDatos.pdb
+C:\Users\Zoco IT\Documents\GitHub\SubirDatos\SubirDatos\bin\Debug\SubirDatos.exe.manifest
+C:\Users\Zoco IT\Documents\GitHub\SubirDatos\SubirDatos\bin\Debug\SubirDatos.application
+C:\Users\Zoco IT\Documents\GitHub\SubirDatos\SubirDatos\obj\Debug\SubirDatos.exe.manifest
+C:\Users\Zoco IT\Documents\GitHub\SubirDatos\SubirDatos\obj\Debug\SubirDatos.application
