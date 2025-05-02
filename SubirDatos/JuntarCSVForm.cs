@@ -100,23 +100,25 @@ namespace SubirDatos
             }
 
             var columnasDeseadas = new List<string>
-            {
-                "Fecha Operación", "Fecha de Presentación", "Fecha de Pago", "D", "D_1", "Nro,", "D_2",
-                "Comercio", "Terminal", "Moneda", "Total Bruto", "Total Descuento", "Total Neto",
-                "Entidad Pagadora", "Cuenta Bancaria", "Nro, Liquidación", "Nro, de Lote",
-                "Tipo de Liquidacion", "Estado", "Cuotas", "Nro, de Autorizacion", "Tarjeta"
-            };
+    {
+        "Fecha Operación", "Fecha de Presentación", "Fecha de Pago", "D", "D_1", "Nro,", "D_2",
+        "Comercio", "Terminal", "Moneda", "Total Bruto", "Total Descuento", "Total Neto",
+        "Entidad Pagadora", "Cuenta Bancaria", "Nro, Liquidación", "Nro, de Lote",
+        "Tipo de Liquidacion", "Estado", "Cuotas", "Nro, de Autorizacion", "Tarjeta"
+    };
+
+            columnasDeseadas.Add("Detalle Transferencia");
 
             datosRecortados = new DataTable();
             columnasDeseadas.ForEach(col => datosRecortados.Columns.Add(col));
 
+            // ----------- CASO 1: Columna tradicional con "Medio: Transferencia"
             foreach (DataRow filaOriginal in datosCSV.Rows)
             {
                 var columnaMoneda = datosCSV.Columns.Cast<DataColumn>()
                     .FirstOrDefault(c => c.ColumnName.Trim().ToLower().Contains("moneda"));
 
-                if (columnaMoneda == null || !filaOriginal[columnaMoneda].ToString().Trim()
-                        .Equals("Medio: Transferencia", StringComparison.OrdinalIgnoreCase))
+                if (columnaMoneda == null || !filaOriginal[columnaMoneda].ToString().Trim().Equals("Medio: Transferencia", StringComparison.OrdinalIgnoreCase))
                     continue;
 
                 DataRow nuevaFila = datosRecortados.NewRow();
@@ -124,6 +126,12 @@ namespace SubirDatos
                 for (int i = 0; i < columnasDeseadas.Count; i++)
                 {
                     string colDestino = columnasDeseadas[i];
+
+                    if (colDestino == "Detalle Transferencia")
+                    {
+                        nuevaFila[i] = filaOriginal[columnaMoneda]?.ToString().Trim();
+                        continue;
+                    }
 
                     if (colDestino.StartsWith("Fecha"))
                     {
@@ -158,13 +166,12 @@ namespace SubirDatos
                     }
                     else if (colDestino == "Total Bruto")
                     {
-                        int indexTotalBruto = 18; // ← Núm. de comercio
+                        int indexTotalBruto = 18;
                         nuevaFila[i] = indexTotalBruto < filaOriginal.ItemArray.Length
                             ? filaOriginal[indexTotalBruto]?.ToString().Trim()
                             : "";
                         continue;
                     }
-
                     else if (colDestino == "Moneda" || colDestino.StartsWith("D") || colDestino == "Nro,")
                     {
                         nuevaFila[i] = "";
@@ -195,9 +202,106 @@ namespace SubirDatos
                 datosRecortados.Rows.Add(nuevaFila);
             }
 
+            // ----------- CASO 2: "Medio: Transferencia" en columna "Nota"
+            foreach (DataRow filaOriginal in datosCSV.Rows)
+            {
+                var colNota = datosCSV.Columns.Cast<DataColumn>()
+                    .FirstOrDefault(c => c.ColumnName.Trim().ToLower() == "nota");
+
+                var valorNota = colNota != null ? filaOriginal[colNota]?.ToString() : "";
+                if (string.IsNullOrEmpty(valorNota) || !valorNota.ToLower().Contains("medio: transferencia"))
+                    continue;
+
+                DataRow nuevaFila = datosRecortados.NewRow();
+
+                for (int i = 0; i < columnasDeseadas.Count; i++)
+                {
+                    string colDestino = columnasDeseadas[i];
+
+                    if (colDestino == "Detalle Transferencia")
+                    {
+                        int medioIndex = valorNota.IndexOf("Medio:");
+                        nuevaFila[i] = medioIndex >= 0 ? valorNota.Substring(medioIndex).Trim() : "";
+                        continue;
+                    }
+
+                    if (colDestino.StartsWith("Fecha"))
+                    {
+                        var colFecha = datosCSV.Columns.Cast<DataColumn>()
+                            .FirstOrDefault(c => c.ColumnName.Trim().ToLower().Contains("fecha del pago"));
+
+                        if (colFecha != null)
+                        {
+                            string valorCrudo = filaOriginal[colFecha]?.ToString().Replace("ART", "").Trim();
+                            if (DateTime.TryParse(valorCrudo, out DateTime fechaBase))
+                            {
+                                if (colDestino == "Fecha Operación")
+                                    nuevaFila[i] = fechaBase.ToString("d/M/yyyy");
+                                else if (colDestino == "Fecha de Pago")
+                                    nuevaFila[i] = fechaBase.AddDays(1).ToString("d/M/yyyy");
+                                else
+                                    nuevaFila[i] = "";
+                            }
+                        }
+                        continue;
+                    }
+                    else if (colDestino == "Comercio" || colDestino == "Terminal")
+                    {
+                        string val = "";
+                        if (!string.IsNullOrEmpty(valorNota))
+                        {
+                            int indexQR = valorNota.IndexOf("ID QR:");
+                            if (indexQR >= 0)
+                            {
+                                int start = indexQR + "ID QR:".Length;
+                                int end = valorNota.IndexOf(",", start);
+                                if (end == -1) end = valorNota.Length;
+                                val = valorNota.Substring(start, end - start).Trim();
+                            }
+                        }
+
+                        if (colDestino == "Comercio") nuevaFila[i] = val;
+                        if (colDestino == "Terminal") nuevaFila[i] = val.Length >= 8 ? val.Substring(0, 8) : val;
+                        continue;
+                    }
+                    else if (colDestino == "Total Bruto")
+                    {
+                        nuevaFila[i] = filaOriginal.ItemArray.Length > 12
+                            ? filaOriginal[12]?.ToString().Trim()
+                            : "";
+                        continue;
+                    }
+                    else if (colDestino == "Moneda" || colDestino.StartsWith("D") || colDestino == "Nro,")
+                    {
+                        nuevaFila[i] = "";
+                        continue;
+                    }
+                    else if (colDestino == "Estado")
+                    {
+                        nuevaFila[i] = filaOriginal.ItemArray.Length > 30 &&
+                                       filaOriginal[30]?.ToString().Trim().ToUpper() == "SUCCESS"
+                                       ? "PRESENTADO" : filaOriginal[30]?.ToString();
+                        continue;
+                    }
+                    else if (colDestino == "Tarjeta")
+                    {
+                        nuevaFila[i] = "QR";
+                        continue;
+                    }
+
+                    var columna = datosCSV.Columns.Cast<DataColumn>()
+                        .FirstOrDefault(c => c.ColumnName == colDestino);
+
+                    nuevaFila[i] = columna != null ? filaOriginal[columna] : "";
+                }
+
+                datosRecortados.Rows.Add(nuevaFila);
+            }
+
             dataGridViewDatos.DataSource = datosRecortados;
             lblCantidadFilas.Text = $"Filas recortadas: {datosRecortados.Rows.Count}";
         }
+
 
         private void btnExportarRecortadoExcel_Click(object sender, EventArgs e)
         {

@@ -16,7 +16,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\Zoco IT\Desktop\app qr 2\</PublishUrl>
+    <PublishUrl>C:\Users\Zoco IT\Desktop\app qr 3\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -26,9 +26,9 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ProductName>SubirDatos QR Versión Nueva</ProductName>
-    <SuiteName>SubirDatosQRv2</SuiteName>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ProductName>SubirDatos QR V3</ProductName>
+    <SuiteName>SubirDatosQRv3</SuiteName>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
